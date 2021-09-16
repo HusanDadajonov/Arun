@@ -34,6 +34,7 @@ img {
   --bg-logo : url('../img/logo-dark.svg');
   --settings:#272935;
   --box-shadow: 1px 1px 17px 3px  #363947;
+  --haeder-color: #272935;
 }
 .change-color{
   --text-color:#161F38;
@@ -41,6 +42,7 @@ img {
   --bg-logo : url('../img/logo.svg');
   --settings:#fff;
   --box-shadow: 1px 1px 17px 3px  rgb(247, 242, 242);
+  --haeder-color: #fff;
 }
 .main-switch{
   overflow: hidden;
@@ -189,7 +191,7 @@ button:hover{
 }
 .site-header{
   padding: 20px;
-  background: var(--text-color);
+  background: var(--haeder-color);
   z-index: 30;
 }
 .header-bottom{
