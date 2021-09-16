@@ -203,7 +203,7 @@ button:hover{
   border-radius: 5px;
   padding:15px;
   width: 335px;
-  color: #fff;
+  color: var(--text-color);
 }
 .addres-inp:focus{
   outline: none;
